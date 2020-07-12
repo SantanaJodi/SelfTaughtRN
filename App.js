@@ -11,15 +11,19 @@ import LifeCycle from './components/LifeCycle'
 // Functional Component
 import FunctionalComponent from './components/FunctionalComponent'
 
+// Props Dinamis
+import PropsDinamis from './components/PropsDinamis'
+
 // Random Latihan
-import { ToggleButton } from './components/RandomLatihan'
+// import { ToggleButton } from './components/RandomLatihan'
 
 export default function App() {
   return (
     <View style={styles.container}>
       {/* <FunctionalComponent /> */}
       {/* <LifeCycle /> */}
-      <ToggleButton />
+      <PropsDinamis />
+      {/* <ToggleButton /> */}
 
       <StatusBar style="auto" />
     </View>
