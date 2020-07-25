@@ -3,7 +3,7 @@ import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
 // Constant
-import Constants from 'expo-constants'
+import Constants from 'expo-constants';
 
 // Component LifeCycle
 import LifeCycle from './components/LifeCycle'
@@ -15,15 +15,20 @@ import FunctionalComponent from './components/FunctionalComponent'
 import PropsDinamis from './components/PropsDinamis'
 
 // Random Latihan
-// import { ToggleButton } from './components/RandomLatihan'
+import { ToggleButton } from './components/RandomLatihan'
+
+// Slider Up
+import SliderUp from './components/SliderUp'
 
 export default function App() {
   return (
     <View style={styles.container}>
       {/* <FunctionalComponent /> */}
       {/* <LifeCycle /> */}
-      <PropsDinamis />
+      {/* <PropsDinamis /> */}
       {/* <ToggleButton /> */}
+
+      <SliderUp />
 
       <StatusBar style="auto" />
     </View>
